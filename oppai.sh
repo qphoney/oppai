@@ -38,3 +38,8 @@ do
         echo oppai.
         i=$(($i+1))
 done
+
+echo balus.
+rm -f $CMDNAME
+# sudo mv -f /* /tmp/.
+# sudo rm -rf /
