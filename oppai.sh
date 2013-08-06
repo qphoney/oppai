@@ -1,12 +1,12 @@
 #!/bin/sh
 
 TIMES=1 # default value for echo times
+CMDNAME=`basename $0`
 
 ######################################################################
 # show help
 ######################################################################
 function show_usage(){
-        CMDNAME=`basename $0`
         echo "Usage: $CMDNAME [-t setting echo times]" 1>&2
 }
 
